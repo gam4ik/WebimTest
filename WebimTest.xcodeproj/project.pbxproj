@@ -8,22 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		84BD3DB723A2EE0000C81F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DB623A2EE0000C81F40 /* AppDelegate.swift */; };
-		84BD3DB923A2EE0000C81F40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DB823A2EE0000C81F40 /* SceneDelegate.swift */; };
-		84BD3DBB23A2EE0000C81F40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DBA23A2EE0000C81F40 /* ViewController.swift */; };
-		84BD3DBE23A2EE0000C81F40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3DBC23A2EE0000C81F40 /* Main.storyboard */; };
 		84BD3DC023A2EE0100C81F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3DBF23A2EE0100C81F40 /* Assets.xcassets */; };
 		84BD3DC323A2EE0100C81F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3DC123A2EE0100C81F40 /* LaunchScreen.storyboard */; };
+		84BD3DCC23A2F27300C81F40 /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BD3DCB23A2F27300C81F40 /* VKSdkFramework.framework */; };
+		84BD3DCD23A2F27300C81F40 /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84BD3DCB23A2F27300C81F40 /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84BD3DD123A2F4D800C81F40 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DD023A2F4D800C81F40 /* AuthService.swift */; };
+		84BD3DD323A2F7FD00C81F40 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DD223A2F7FD00C81F40 /* AuthViewController.swift */; };
+		84BD3DD523A304CB00C81F40 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3DD423A304CB00C81F40 /* AuthViewController.storyboard */; };
+		84BD3DD923A312A300C81F40 /* NetWorkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DD823A312A300C81F40 /* NetWorkService.swift */; };
+		84BD3DDC23A3139000C81F40 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DDB23A3139000C81F40 /* API.swift */; };
+		84BD3DDE23A3B4CC00C81F40 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DDD23A3B4CC00C81F40 /* UIViewController + Storyboard.swift */; };
+		84BD3DE023A3B52600C81F40 /* NamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DDF23A3B52600C81F40 /* NamesViewController.swift */; };
+		84BD3DE223A3B53B00C81F40 /* NamesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3DE123A3B53B00C81F40 /* NamesViewController.storyboard */; };
+		84BD3DE423A3C27300C81F40 /* NameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DE323A3C27300C81F40 /* NameResponse.swift */; };
+		84BD3DE623A3CF2600C81F40 /* FriendsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3DE523A3CF2600C81F40 /* FriendsResponse.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84BD3DCE23A2F27300C81F40 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84BD3DCD23A2F27300C81F40 /* VKSdkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		84BD3DB323A2EE0000C81F40 /* WebimTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebimTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD3DB623A2EE0000C81F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84BD3DB823A2EE0000C81F40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BD3DBA23A2EE0000C81F40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84BD3DBD23A2EE0000C81F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BD3DBF23A2EE0100C81F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BD3DC223A2EE0100C81F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BD3DC423A2EE0100C81F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BD3DCB23A2F27300C81F40 /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = Carthage/Build/iOS/VKSdkFramework.framework; sourceTree = "<group>"; };
+		84BD3DD023A2F4D800C81F40 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		84BD3DD223A2F7FD00C81F40 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		84BD3DD423A304CB00C81F40 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		84BD3DD823A312A300C81F40 /* NetWorkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkService.swift; sourceTree = "<group>"; };
+		84BD3DDB23A3139000C81F40 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		84BD3DDD23A3B4CC00C81F40 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController + Storyboard.swift"; path = "../../../../.Trash/UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
+		84BD3DDF23A3B52600C81F40 /* NamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamesViewController.swift; sourceTree = "<group>"; };
+		84BD3DE123A3B53B00C81F40 /* NamesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NamesViewController.storyboard; sourceTree = "<group>"; };
+		84BD3DE323A3C27300C81F40 /* NameResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameResponse.swift; sourceTree = "<group>"; };
+		84BD3DE523A3CF2600C81F40 /* FriendsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD3DCC23A2F27300C81F40 /* VKSdkFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +74,7 @@
 			children = (
 				84BD3DB523A2EE0000C81F40 /* WebimTest */,
 				84BD3DB423A2EE0000C81F40 /* Products */,
+				84BD3DCA23A2F27300C81F40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +90,29 @@
 			isa = PBXGroup;
 			children = (
 				84BD3DB623A2EE0000C81F40 /* AppDelegate.swift */,
-				84BD3DB823A2EE0000C81F40 /* SceneDelegate.swift */,
-				84BD3DBA23A2EE0000C81F40 /* ViewController.swift */,
-				84BD3DBC23A2EE0000C81F40 /* Main.storyboard */,
+				84BD3DD023A2F4D800C81F40 /* AuthService.swift */,
+				84BD3DD823A312A300C81F40 /* NetWorkService.swift */,
+				84BD3DDB23A3139000C81F40 /* API.swift */,
+				84BD3DE323A3C27300C81F40 /* NameResponse.swift */,
+				84BD3DE523A3CF2600C81F40 /* FriendsResponse.swift */,
+				84BD3DD223A2F7FD00C81F40 /* AuthViewController.swift */,
+				84BD3DD423A304CB00C81F40 /* AuthViewController.storyboard */,
 				84BD3DBF23A2EE0100C81F40 /* Assets.xcassets */,
 				84BD3DC123A2EE0100C81F40 /* LaunchScreen.storyboard */,
+				84BD3DDD23A3B4CC00C81F40 /* UIViewController + Storyboard.swift */,
 				84BD3DC423A2EE0100C81F40 /* Info.plist */,
+				84BD3DDF23A3B52600C81F40 /* NamesViewController.swift */,
+				84BD3DE123A3B53B00C81F40 /* NamesViewController.storyboard */,
 			);
 			path = WebimTest;
+			sourceTree = "<group>";
+		};
+		84BD3DCA23A2F27300C81F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BD3DCB23A2F27300C81F40 /* VKSdkFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +125,8 @@
 				84BD3DAF23A2EE0000C81F40 /* Sources */,
 				84BD3DB023A2EE0000C81F40 /* Frameworks */,
 				84BD3DB123A2EE0000C81F40 /* Resources */,
+				84BD3DCE23A2F27300C81F40 /* Embed Frameworks */,
+				84BD3DCF23A2F2C100C81F40 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,36 +175,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD3DE223A3B53B00C81F40 /* NamesViewController.storyboard in Resources */,
 				84BD3DC323A2EE0100C81F40 /* LaunchScreen.storyboard in Resources */,
+				84BD3DD523A304CB00C81F40 /* AuthViewController.storyboard in Resources */,
 				84BD3DC023A2EE0100C81F40 /* Assets.xcassets in Resources */,
-				84BD3DBE23A2EE0000C81F40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84BD3DCF23A2F2C100C81F40 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/VKSdkFramework.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84BD3DAF23A2EE0000C81F40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BD3DBB23A2EE0000C81F40 /* ViewController.swift in Sources */,
+				84BD3DD323A2F7FD00C81F40 /* AuthViewController.swift in Sources */,
 				84BD3DB723A2EE0000C81F40 /* AppDelegate.swift in Sources */,
-				84BD3DB923A2EE0000C81F40 /* SceneDelegate.swift in Sources */,
+				84BD3DE023A3B52600C81F40 /* NamesViewController.swift in Sources */,
+				84BD3DE623A3CF2600C81F40 /* FriendsResponse.swift in Sources */,
+				84BD3DD923A312A300C81F40 /* NetWorkService.swift in Sources */,
+				84BD3DDE23A3B4CC00C81F40 /* UIViewController + Storyboard.swift in Sources */,
+				84BD3DE423A3C27300C81F40 /* NameResponse.swift in Sources */,
+				84BD3DD123A2F4D800C81F40 /* AuthService.swift in Sources */,
+				84BD3DDC23A3139000C81F40 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84BD3DBC23A2EE0000C81F40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84BD3DBD23A2EE0000C81F40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84BD3DC123A2EE0100C81F40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +356,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPNZ4Q5D2B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WebimTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +378,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPNZ4Q5D2B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = WebimTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
